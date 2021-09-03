@@ -1,0 +1,9 @@
+---
+
+- name: Hello World Playbook
+  hosts: localhost
+  tasks:
+
+    - name: Echo Hello World message
+      debug:
+        msg: "Hello World!"
